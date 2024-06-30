@@ -1,0 +1,29 @@
+#x {
+    color: brown;
+    font-size: 30px;
+    font-family: serif;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#x span {
+    color: black;
+    font-size: 20px;
+}
+
+.x {
+    margin-top: 180px;
+}
+
+
+@media (max-width: 768px) {
+
+    .x {
+        margin-top: 0;
+    }
+
+}
+
+.y a:hover {
+    background-color: rgb(0 0 225 / 0.5);
+}
